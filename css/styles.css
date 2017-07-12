@@ -1,0 +1,296 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ----- MIS ESTILOS ------ */
+
+
+
+.container{
+  		width: 1280px;
+  		margin-left: auto;
+  		margin-right: auto;
+}
+
+body{
+	background-color: #f4f4f4;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{	
+	text-align: center;
+}
+
+h2{	text-align: center;
+	color: #fff; /*191629;*/
+	font-size: 30px;	
+	background-color: #9C1B15;
+	margin-top: 70px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 10px;
+}
+
+h3{
+	text-transform: uppercase;
+	background-color: #9C1B15;
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+h3:hover{
+	opacity: 0.5;
+}
+
+p{
+	color: #fff;
+	line-height: 120%;
+	font-size: 20px;
+}
+
+a:hover{
+		text-decoration: underline;
+	   	color: #438bc5;
+	   	text-decoration: none;
+}
+
+img{
+	width: 100%;
+	user-drag: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+}
+
+.wrapper{
+	background-color: #000000
+}
+
+
+/* --- H E A D E R --- */
+
+
+header img{
+	margin: -2px 0 30px 0;
+
+}
+
+.top_nav{
+		float: left;
+		border-radius: 10px;
+		background-color: #B61917;
+		font-size: 18px;
+		position: fixed;
+		/*padding-right: 50px;
+		position: absolute;
+		*/
+
+	}	
+
+.top_nav li{
+		float: left;
+		padding: 14px 10px;
+		
+	}
+	
+
+.top_nav li a{
+	padding: 14px 10px;
+	text-decoration: none;
+	color: #fff;
+}	
+
+.top_nav a:hover{
+		background-color: #fff;
+		color: #B42F18;
+		
+}
+
+ 
+/* --- M A I N --- */
+
+
+main{
+	background-color: #000000;
+}
+
+
+.intro{
+	  overflow: hidden;
+}
+
+.intro h2{
+	margin-top: 0px;
+}
+
+.intro p{
+	text-align: center; 
+
+}
+
+.intro img{
+	width: 150px;
+	float: left;
+    margin-right: 64px;
+}
+
+
+.proyectos{
+	overflow: hidden;
+}
+
+.proyectos img{
+	border-radius: 10px;
+}
+
+.img_boxes{
+	width: 1000px;
+	margin-top: 70px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.ventana{
+		float: left;
+		width: 200px;
+		/*background-color: #FFF;*/
+		margin: 10px;
+		padding: 10px;
+		border: 3px solid #B42F18;
+		border-radius: 10px;
+}
+
+
+.ventana2{
+		/*background-color: #FFF;*/
+		margin: 10px;
+		padding: 10px;
+		border: 3px solid #B42F18;
+		border-radius: 10px;
+}
+
+
+.ventana3{
+		/*background-color: #FFF;*/
+		margin: 10px;
+		padding: 10px;
+		border: 3px solid #B42F18;
+		border-radius: 10px;
+
+	}
+
+.ventana4{
+		/*background-color: #FFF;*/
+		margin: 10px;
+		padding: 10px;
+		border: 3px solid #B42F18;
+		border-radius: 10px;
+	}
+
+.cont2{
+	margin-top: 70px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	line-height: 120%;
+
+}
+
+.servicios{
+	color: #fff;
+}
+
+.servicios ul{
+
+
+
+}
+
+.servicios li{
+	/*list-style: circle;*/
+}
+
+.herramientas{
+	overflow: hidden;
+}
+
+
+.cuadro{
+		float: left;
+		width: 150px;
+		/*background-color: #FFF;*/
+		margin: 10px;
+		padding: 10px;
+		border: 3px solid #B42F18;
+		border-radius: 10px;
+}
+
+.contacto{
+	color: #0671bb;
+	margin-bottom: 70px;
+
+}
+
+/* --- F O O T E R --- */
+
+footer{
+	background-color: #9C1B15;
+}
+
+footer p{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
